@@ -37,6 +37,11 @@ bot.on('message', async message => {
   message.channel.send(invitelink);
         break;
 
+      case 'jackie' :
+       message.author.send("Join the Realm Bros. Minecraft Realm today! https://realms.gg/-exmBdxOAtc");
+       message.channel.send("Check your DMs!");
+        break;
+
       case 'say':
       case 'repeat':
         if (args.length > 0)
