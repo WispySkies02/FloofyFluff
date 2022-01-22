@@ -1,5 +1,4 @@
-module.exports = {
-  case 'help':
+module.exports = (message, args) => {
         let embed =  new MessageEmbed()
           .setTitle('HELP MENU')
           .setColor('GREEN')
