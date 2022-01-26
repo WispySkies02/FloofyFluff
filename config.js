@@ -1,4 +1,4 @@
 module.exports = {
-  prefix: '=',
+  prefix: 'ff!',
   token: process.env['BOT-TOKEN']
 };
